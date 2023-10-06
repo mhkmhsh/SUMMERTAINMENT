@@ -1,0 +1,86 @@
+body{
+    Margin:0;
+    padding:0;
+  min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    overflow:hidden;
+    background-size:cover;
+    background-color:#a2a791;
+    color:#5f0f40;
+  background-attachment: fixed;
+  }
+  #background-text{
+  font-family: 'Anton', sans-serif;
+  font-size: 500%;
+    
+  }
+  #mon{
+    align-items:center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   color:transparent;
+    background-image:url("Images/shaa.jpg");
+    background-size:120%;
+    font-size: 900%;
+    margin:auto;
+    z-index:front;
+  }
+  
+  .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+  }
+  /*FIRST SET */
+  
+  button {
+    border-radius: 4px;
+    background-color: #AB494E;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    margin-right: 75%;
+  }
+  
+  button:after {
+    content: '»';
+    color:black;
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+    background-color: #9a031e;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  
