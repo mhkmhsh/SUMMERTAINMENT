@@ -1,5 +1,9 @@
 body {
-  background-image:url(images/wallpaper.jpg);
+ 
+  Margin:0;
+  padding:0;
+min-height: 100vh;
+ background-image:url(images/wallpaper.jpg);
   background-repeat: no-repeat;
  background-size: cover;
   }
@@ -32,5 +36,18 @@ width:100%;
   image:cover;
   }
   div#card{
-    margin-top:20%;
+margin:auto;
+  }
+  #caro{
+    margin-top:10%;
+    height:500px;
+    width:500px;
+ justify-content:center;
+align-items: center;
+text-align: center;
+  }
+
+  #list{
+    background-color: #A2A791;
+    align-items: center;
   }
